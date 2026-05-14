@@ -98,13 +98,22 @@ const COACHES = [
     color: '#0057cc'
   },
   {
-    initials: 'AL',
-    name: 'Amanda Lawson',
-    title: 'Recruiting Coordinator',
-    program: "Women's Soccer",
+    initials: 'CR',
+    name: 'Chad Riley',
+    title: 'Head Coach',
+    program: "Men's Soccer",
     school: 'Notre Dame',
     division: 'NCAA DI',
     color: '#003fa3'
+  },
+  {
+    initials: 'NN',
+    name: 'Nate Norman',
+    title: 'Head Coach',
+    program: "Women's Soccer",
+    school: 'Notre Dame',
+    division: 'NCAA DI',
+    color: '#0057cc'
   },
   {
     initials: 'RJ',
@@ -116,13 +125,22 @@ const COACHES = [
     color: '#0057cc'
   },
   {
-    initials: 'KP',
-    name: 'Karen Park',
-    title: 'Associate Head Coach',
-    program: "Women's Soccer",
+    initials: 'RJ',
+    name: 'Ryan Jorden',
+    title: 'Head Coach',
+    program: "Men's Soccer",
     school: 'UCLA',
     division: 'NCAA DI',
     color: '#003fa3'
+  },
+  {
+    initials: 'GB',
+    name: 'Gof Boyoko',
+    title: 'Head Coach',
+    program: "Women's Soccer",
+    school: 'UCLA',
+    division: 'NCAA DI',
+    color: '#0057cc'
   },
   {
     initials: 'MB',
