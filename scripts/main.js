@@ -141,6 +141,15 @@ const COACHES = [
     school: 'Penn State',
     division: 'NCAA DI',
     color: '#003fa3'
+  },
+  {
+    initials: 'GL',
+    name: 'Greg LaPorte',
+    title: 'Head Coach',
+    program: "Women's Soccer",
+    school: 'University of San Diego',
+    division: 'NCAA DI',
+    color: '#0057cc'
   }
 ];
 
