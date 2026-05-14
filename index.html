@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Elite Showcase ID — National soccer ID camps connecting top youth talent with college coaches actively building rosters. Register for upcoming camps." />
+  <title>Elite Showcase ID — National Soccer ID Camps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════════ -->
+<header>
+  <nav id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+
+      <a href="#" class="nav-logo" aria-label="Elite Showcase ID — Home">
+        <svg width="28" height="23" viewBox="0 0 72 60" fill="none" aria-hidden="true">
+          <polyline points="2,10 22,30 2,50" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.22"/>
+          <polyline points="18,6 42,30 18,54" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+          <polyline points="36,10 62,30 36,50" stroke="#4d9fff" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="nav-wordmark">Elite Showcase <span>ID</span></div>
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#how">How It Works</a>
+        <a href="#events">Events</a>
+        <a href="#coaches">Coaches</a>
+        <a href="#players">Players</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+      </div>
+
+      <a href="#register" class="nav-cta">Register Now</a>
+
+      <button class="nav-toggle" id="nav-toggle"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section class="hero" id="hero" aria-labelledby="hero-headline">
+
+  <div class="hero-bg-lines" aria-hidden="true">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="spd" width="32" height="32" patternUnits="userSpaceOnUse" patternTransform="rotate(108)">
+          <path d="M0,32 L32,0" stroke="rgba(0,87,204,0.06)" stroke-width="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="1440" height="900" fill="url(#spd)"/>
+    </svg>
+  </div>
+
+  <div class="hero-mark-bg" aria-hidden="true">
+    <svg width="600" height="500" viewBox="0 0 72 60" fill="none">
+      <polyline points="2,10 22,30 2,50" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="18,6 42,30 18,54" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="36,10 62,30 36,50" stroke="white" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-left">
+      <p class="eyebrow hero-eyebrow">National Soccer ID Camps</p>
+      <h1 class="hero-headline" id="hero-headline">
+        <span class="word">Seen.</span>
+        <span class="word">Evaluated.</span>
+        <span class="word">Chosen.</span>
+      </h1>
+      <p class="hero-sub">Elite Showcase ID connects the nation's top youth soccer players with the college coaches actively building rosters — through rigorous, transparent ID evaluations that are nationally respected.</p>
+      <div class="hero-actions">
+        <a href="#events" class="btn-primary">View Upcoming Camps</a>
+        <a href="#how" class="btn-ghost">Learn How College Coaches Scout Here</a>
+      </div>
+    </div>
+
+    <div class="hero-right" aria-label="Upcoming camps preview">
+      <div class="hero-card">
+        <div class="hero-card-label">Next Up — 16 Days Away</div>
+        <div class="hero-card-title">Northeast Regional ID — U17/U18</div>
+        <div class="hero-card-meta">
+          <span>
+            <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="1" stroke="rgba(255,255,255,0.35)" stroke-width="1.3"/><path d="M5 1v4M11 1v4M2 7h12" stroke="rgba(255,255,255,0.35)" stroke-width="1.3" stroke-linecap="round"/></svg>
+            May 30 – June 1, 2025
+          </span>
+          <span>
+            <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2C5.8 2 4 3.8 4 6c0 3.3 4 8 4 8s4-4.7 4-8c0-2.2-1.8-4-4-4zm0 5.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" fill="rgba(255,255,255,0.35)"/></svg>
+            Princeton, NJ
+          </span>
+        </div>
+        <div class="hero-card-spots low">8 spots remaining</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-label">Summer ID Camp</div>
+        <div class="hero-card-title">Midwest National Showcase — U15/U16</div>
+        <div class="hero-card-meta">
+          <span>
+            <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="1" stroke="rgba(255,255,255,0.35)" stroke-width="1.3"/><path d="M5 1v4M11 1v4M2 7h12" stroke="rgba(255,255,255,0.35)" stroke-width="1.3" stroke-linecap="round"/></svg>
+            July 18–20, 2025
+          </span>
+          <span>
+            <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2C5.8 2 4 3.8 4 6c0 3.3 4 8 4 8s4-4.7 4-8c0-2.2-1.8-4-4-4zm0 5.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" fill="rgba(255,255,255,0.35)"/></svg>
+            Columbus, OH
+          </span>
+        </div>
+        <div class="hero-card-spots">44 spots open</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-label">Fall Flagship — Registration Open</div>
+        <div class="hero-card-title">Fall National ID Camp — All Divisions</div>
+        <div class="hero-card-meta">
+          <span>
+            <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="1" stroke="rgba(255,255,255,0.35)" stroke-width="1.3"/><path d="M5 1v4M11 1v4M2 7h12" stroke="rgba(255,255,255,0.35)" stroke-width="1.3" stroke-linecap="round"/></svg>
+            Sept 20–22, 2025
+          </span>
+          <span>
+            <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2C5.8 2 4 3.8 4 6c0 3.3 4 8 4 8s4-4.7 4-8c0-2.2-1.8-4-4-4zm0 5.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" fill="rgba(255,255,255,0.35)"/></svg>
+            Dallas, TX
+          </span>
+        </div>
+        <div class="hero-card-spots">Registration open — all divisions</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stat-strip" aria-label="Key statistics">
+    <div class="hero-stat">
+      <div class="hero-stat-num js-counter" data-target="400">400<span>+</span></div>
+      <div class="hero-stat-label">College Coaches</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num js-counter" data-target="2100">2,100<span>+</span></div>
+      <div class="hero-stat-label">Players Identified</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num js-counter" data-target="48">48</div>
+      <div class="hero-stat-label">States Represented</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num js-counter" data-target="6">6</div>
+      <div class="hero-stat-label">Years Running</div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ══════════════════════════════════════════
+     HOW IT WORKS
+══════════════════════════════════════════ -->
+<section class="how" id="how" aria-labelledby="how-title">
+  <div class="wrap">
+    <div class="how-header">
+      <p class="eyebrow">The Process</p>
+      <div class="rule" style="margin-inline:auto" aria-hidden="true"></div>
+      <h2 class="how-title" id="how-title">Your Path to College Soccer</h2>
+      <p class="how-sub">Three structured steps designed to get the right players in front of the right coaches — nothing more, nothing less.</p>
+    </div>
+    <div class="how-grid">
+      <article class="how-step">
+        <div class="how-num" aria-hidden="true">01</div>
+        <h3 class="how-step-title">Register &amp; Prepare</h3>
+        <p class="how-step-desc">Select your age division and regional camp. Submit your player profile — club, position, GPA, graduation year. College coaches review rosters in advance and identify players they want to watch.</p>
+      </article>
+      <article class="how-step">
+        <div class="how-num" aria-hidden="true">02</div>
+        <h3 class="how-step-title">Compete &amp; Be Evaluated</h3>
+        <p class="how-step-desc">Three days of structured training, small-sided games, and full matches — designed to surface tactical intelligence, technical ability, and athletic profile. Every player is scored on a standardized rubric.</p>
+      </article>
+      <article class="how-step">
+        <div class="how-num" aria-hidden="true">03</div>
+        <h3 class="how-step-title">Get Identified</h3>
+        <p class="how-step-desc">Participating coaches receive your evaluation report and contact information. Players flagged for interest receive direct outreach within 14 days. No middlemen. No club politics.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     UPCOMING CAMPS / EVENTS
+══════════════════════════════════════════ -->
+<section class="events" id="events" aria-labelledby="events-title">
+  <div class="wrap">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Upcoming Camps</p>
+        <h2 class="section-title" id="events-title">2025 ID Camp Schedule</h2>
+      </div>
+      <a href="#" class="see-all">View Full Calendar →</a>
+    </div>
+
+    <div class="camp-filters" role="group" aria-label="Filter camps by age group">
+      <button class="filter-btn active" data-filter="all">All Camps</button>
+      <button class="filter-btn" data-filter="U14">U14</button>
+      <button class="filter-btn" data-filter="U15">U15</button>
+      <button class="filter-btn" data-filter="U16">U16</button>
+      <button class="filter-btn" data-filter="U17">U17</button>
+      <button class="filter-btn" data-filter="U18">U18</button>
+    </div>
+
+    <div class="events-grid" id="events-grid" aria-live="polite">
+      <!-- Rendered by main.js from CAMPS data -->
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     COLLEGE PROGRAMS MARQUEE
+══════════════════════════════════════════ -->
+<section class="partners" aria-label="College programs that have attended">
+  <p class="partners-label">College Programs That Have Attended</p>
+  <div class="marquee-track" aria-hidden="true">
+    <div class="marquee-inner">
+      <span class="partner-badge">Georgetown University</span>
+      <span class="partner-badge">University of Virginia</span>
+      <span class="partner-badge">Stanford University</span>
+      <span class="partner-badge">Wake Forest University</span>
+      <span class="partner-badge">UCLA</span>
+      <span class="partner-badge">Duke University</span>
+      <span class="partner-badge">Penn State</span>
+      <span class="partner-badge">Indiana University</span>
+      <span class="partner-badge">Notre Dame</span>
+      <span class="partner-badge">University of Maryland</span>
+      <span class="partner-badge">Creighton University</span>
+      <span class="partner-badge">Villanova University</span>
+      <span class="partner-badge">Santa Clara University</span>
+      <span class="partner-badge">University of Portland</span>
+      <span class="partner-badge">Gonzaga University</span>
+      <span class="partner-badge">Boston College</span>
+      <!-- Duplicated for seamless loop -->
+      <span class="partner-badge">Georgetown University</span>
+      <span class="partner-badge">University of Virginia</span>
+      <span class="partner-badge">Stanford University</span>
+      <span class="partner-badge">Wake Forest University</span>
+      <span class="partner-badge">UCLA</span>
+      <span class="partner-badge">Duke University</span>
+      <span class="partner-badge">Penn State</span>
+      <span class="partner-badge">Indiana University</span>
+      <span class="partner-badge">Notre Dame</span>
+      <span class="partner-badge">University of Maryland</span>
+      <span class="partner-badge">Creighton University</span>
+      <span class="partner-badge">Villanova University</span>
+      <span class="partner-badge">Santa Clara University</span>
+      <span class="partner-badge">University of Portland</span>
+      <span class="partner-badge">Gonzaga University</span>
+      <span class="partner-badge">Boston College</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FEATURED COLLEGE COACHES
+══════════════════════════════════════════ -->
+<section class="coaches-section" id="coaches" aria-labelledby="coaches-title">
+  <div class="wrap">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Who's Evaluating</p>
+        <h2 class="section-title" id="coaches-title">Featured College Coaches</h2>
+      </div>
+    </div>
+    <p class="coaches-sub">Our events attract head coaches, assistant coaches, and recruiting coordinators from programs across all three NCAA divisions — all here to identify talent for their rosters.</p>
+    <div class="coaches-grid" id="coaches-grid">
+      <!-- Rendered by main.js from COACHES data -->
+    </div>
+    <div class="coaches-cta-row">
+      <a href="#register" class="btn-primary">Register to Get Seen by These Coaches</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     TESTIMONIALS / PLAYER EXPERIENCE
+══════════════════════════════════════════ -->
+<section class="testimonials" id="players" aria-labelledby="testimonials-title">
+  <div class="wrap">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">From the Field</p>
+        <h2 class="section-title" id="testimonials-title">What Coaches &amp; Players Say</h2>
+      </div>
+    </div>
+    <div class="testimonials-grid">
+
+      <blockquote class="testimonial">
+        <div class="testimonial-quote" aria-hidden="true">"</div>
+        <p class="testimonial-body">I attended the Fall National ID Camp as a junior with no Division I interest. By the end of day two, three coaches had asked for my contact information. I committed to Creighton the following spring. No camp changed my life more than this one.</p>
+        <footer class="testimonial-author">
+          <div class="testimonial-avatar" aria-hidden="true">JR</div>
+          <div>
+            <div class="testimonial-name">James Rivera</div>
+            <div class="testimonial-role">Midfielder — Committed to Creighton University · Class of 2026</div>
+          </div>
+        </footer>
+      </blockquote>
+
+      <blockquote class="testimonial">
+        <div class="testimonial-quote" aria-hidden="true">"</div>
+        <p class="testimonial-body">I've been to a lot of showcases. What separates Elite Showcase ID is the evaluation structure — the rubric gives us something concrete to send back to our recruiting coordinator. We signed two players out of the Fall camp. We'll be back every year.</p>
+        <footer class="testimonial-author">
+          <div class="testimonial-avatar coach" aria-hidden="true">SC</div>
+          <div>
+            <div class="testimonial-name">Sarah Chen</div>
+            <div class="testimonial-role">Assistant Head Coach, Women's Soccer — University of Virginia</div>
+          </div>
+        </footer>
+      </blockquote>
+
+      <blockquote class="testimonial">
+        <div class="testimonial-quote" aria-hidden="true">"</div>
+        <p class="testimonial-body">My daughter was nervous going in — she'd been playing club at a high level but had never been to an ID camp. The structure made it easy for her to show what she could do. She got two calls within a week of camp closing. It was genuinely worth it.</p>
+        <footer class="testimonial-author">
+          <div class="testimonial-avatar" aria-hidden="true">MP</div>
+          <div>
+            <div class="testimonial-name">Maria Petrov</div>
+            <div class="testimonial-role">Parent — U16 Division, Midwest National Showcase</div>
+          </div>
+        </footer>
+      </blockquote>
+
+      <blockquote class="testimonial">
+        <div class="testimonial-quote" aria-hidden="true">"</div>
+        <p class="testimonial-body">The standardized rubric is what makes this format work for us. Every program walks away with the same data set on every player. We've used those reports to identify three prospects we would have otherwise missed entirely at a traditional showcase.</p>
+        <footer class="testimonial-author">
+          <div class="testimonial-avatar coach" aria-hidden="true">DM</div>
+          <div>
+            <div class="testimonial-name">David Morales</div>
+            <div class="testimonial-role">Head Coach, Men's Soccer — Georgetown University</div>
+          </div>
+        </footer>
+      </blockquote>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     STATS BAR
+══════════════════════════════════════════ -->
+<section class="stats" aria-label="Elite Showcase ID by the numbers">
+  <div class="wrap">
+    <div class="stats-grid">
+      <div class="stat-cell">
+        <div class="stat-num js-counter" data-target="400">400<em>+</em></div>
+        <div class="stat-label">Attending Coaches</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num js-counter" data-target="2100">2,100<em>+</em></div>
+        <div class="stat-label">Players Identified</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num js-counter" data-target="48">48</div>
+        <div class="stat-label">States Represented</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num js-counter" data-target="6">6</div>
+        <div class="stat-label">Years of National Events</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     ABOUT
+══════════════════════════════════════════ -->
+<section class="about" id="about" aria-labelledby="about-title">
+  <div class="wrap">
+    <div class="about-inner">
+
+      <div class="about-left">
+        <p class="eyebrow">Who We Are</p>
+        <h2 class="about-title" id="about-title">The Standard for<br>Soccer ID Evaluation</h2>
+        <p class="about-body">Elite Showcase ID was founded on a single premise: the best young soccer players in America deserve a direct path to the coaches who can change their futures — without the noise of politics, club affiliations, or pay-to-play systems getting in the way.</p>
+        <p class="about-body">Our camps are designed by coaches, evaluated by coaches, and trusted by coaches. Every format decision — from the rubric to the schedule — exists to surface genuine talent, not to reward players who already have exposure.</p>
+        <a href="#register" class="btn-primary" style="margin-top:24px;display:inline-flex">Register Your Player</a>
+      </div>
+
+      <div class="about-right">
+        <div class="about-diff-card">
+          <div class="about-diff-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <div>
+            <h3 class="about-diff-title">Real College Coaches</h3>
+            <p class="about-diff-desc">We vet every attendee. Every coach at our events is an active staff member from a college program — no scouts, no agents, no intermediaries.</p>
+          </div>
+        </div>
+        <div class="about-diff-card">
+          <div class="about-diff-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </div>
+          <div>
+            <h3 class="about-diff-title">Standardized Evaluation</h3>
+            <p class="about-diff-desc">Every player is scored on the same rubric. No favoritism, no first impressions. Just data coaches can trust and players can learn from.</p>
+          </div>
+        </div>
+        <div class="about-diff-card">
+          <div class="about-diff-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+          <div>
+            <h3 class="about-diff-title">Direct Pathways</h3>
+            <p class="about-diff-desc">Players flagged for interest receive direct coach outreach within 14 days. No middlemen, no recruitment agencies, no additional fees beyond registration.</p>
+          </div>
+        </div>
+        <div class="about-diff-card">
+          <div class="about-diff-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div>
+            <h3 class="about-diff-title">All Clubs Welcome</h3>
+            <p class="about-diff-desc">Registration is first-come, first-served. Your club affiliation, rank, or region does not affect your ability to register or be evaluated fairly.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FAQ
+══════════════════════════════════════════ -->
+<section class="faq" id="faq" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="how-header">
+      <p class="eyebrow">Common Questions</p>
+      <div class="rule" style="margin-inline:auto" aria-hidden="true"></div>
+      <h2 class="how-title" id="faq-title">Frequently Asked Questions</h2>
+      <p class="how-sub">Everything you need to know about our ID camps, the evaluation process, and how college recruitment works.</p>
+    </div>
+    <div class="faq-list" id="faq-list">
+      <!-- Rendered by main.js from FAQS data -->
+    </div>
+    <div class="faq-contact">
+      <p>Still have questions? <a href="#register">Reach out to our team →</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     REGISTRATION FORM
+══════════════════════════════════════════ -->
+<section class="register" id="register" aria-labelledby="register-title">
+  <div class="wrap">
+    <div class="register-inner">
+
+      <div class="register-left">
+        <p class="eyebrow">Secure Your Spot</p>
+        <h2 class="register-title" id="register-title">The Coaches<br>Are Coming.<br>Are You?</h2>
+        <p class="register-sub">Registration for the Fall National ID Camp is open across all divisions. Spots fill in order of registration — not club affiliation, not rank. Every player gets a fair look.</p>
+        <div class="register-feature">
+          <div class="rf-dot" aria-hidden="true"></div>
+          <div class="rf-text"><strong>Standardized Evaluation Rubric</strong>Every player scored identically. Coaches receive reports within 24 hours of camp close.</div>
+        </div>
+        <div class="register-feature">
+          <div class="rf-dot" aria-hidden="true"></div>
+          <div class="rf-text"><strong>Direct Coach Contact</strong>No agent, no intermediary. Players flagged for interest receive a direct message from the coaching staff.</div>
+        </div>
+        <div class="register-feature">
+          <div class="rf-dot" aria-hidden="true"></div>
+          <div class="rf-text"><strong>Full Refund — 30 Days Out</strong>Plans change. Cancel up to 30 days before camp for a full refund, no questions asked.</div>
+        </div>
+      </div>
+
+      <div class="register-form-wrapper">
+        <form class="register-form" id="registration-form" novalidate>
+          <h3 class="form-title">Player Registration</h3>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label class="form-label" for="fname">First Name <span aria-hidden="true">*</span></label>
+              <input class="form-input" type="text" id="fname" name="fname"
+                placeholder="James" autocomplete="given-name"
+                required aria-required="true" aria-describedby="fname-error" />
+              <span class="form-error" id="fname-error" role="alert"></span>
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="lname">Last Name <span aria-hidden="true">*</span></label>
+              <input class="form-input" type="text" id="lname" name="lname"
+                placeholder="Rivera" autocomplete="family-name"
+                required aria-required="true" aria-describedby="lname-error" />
+              <span class="form-error" id="lname-error" role="alert"></span>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="email">Email Address <span aria-hidden="true">*</span></label>
+            <input class="form-input" type="email" id="email" name="email"
+              placeholder="player@email.com" autocomplete="email"
+              required aria-required="true" aria-describedby="email-error" />
+            <span class="form-error" id="email-error" role="alert"></span>
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="phone">Phone Number</label>
+            <input class="form-input" type="tel" id="phone" name="phone"
+              placeholder="(555) 000-0000" autocomplete="tel" />
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label class="form-label" for="gradyr">Grad Year <span aria-hidden="true">*</span></label>
+              <select class="form-select" id="gradyr" name="gradyr"
+                required aria-required="true" aria-describedby="gradyr-error">
+                <option value="">Select year</option>
+                <option>2025</option>
+                <option>2026</option>
+                <option>2027</option>
+                <option>2028</option>
+                <option>2029</option>
+              </select>
+              <span class="form-error" id="gradyr-error" role="alert"></span>
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="position">Position <span aria-hidden="true">*</span></label>
+              <select class="form-select" id="position" name="position"
+                required aria-required="true" aria-describedby="position-error">
+                <option value="">Select position</option>
+                <option>Goalkeeper</option>
+                <option>Defender</option>
+                <option>Midfielder</option>
+                <option>Forward</option>
+              </select>
+              <span class="form-error" id="position-error" role="alert"></span>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="club">Club Team</label>
+            <input class="form-input" type="text" id="club" name="club"
+              placeholder="Your current club team" />
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="camp">Select Camp <span aria-hidden="true">*</span></label>
+            <select class="form-select" id="camp" name="camp"
+              required aria-required="true" aria-describedby="camp-error">
+              <option value="">Choose a camp</option>
+              <option>Northeast Regional ID — May 30, Princeton NJ (8 spots left)</option>
+              <option>Midwest National Showcase — July 18, Columbus OH</option>
+              <option>Fall National ID Camp — Sept 20, Dallas TX</option>
+            </select>
+            <span class="form-error" id="camp-error" role="alert"></span>
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="message">Message (Optional)</label>
+            <textarea class="form-input form-textarea" id="message" name="message"
+              placeholder="Anything you'd like the coaching staff to know about your player..." rows="3"></textarea>
+          </div>
+
+          <button class="form-submit" type="submit">Register Now — Secure My Spot</button>
+          <p class="form-fine">Full refund available up to 30 days before camp. No club affiliation required.</p>
+        </form>
+
+        <div class="form-success" id="form-success" hidden aria-live="polite">
+          <div class="form-success-icon" aria-hidden="true">✓</div>
+          <h4>Registration Submitted!</h4>
+          <p>We'll be in touch within 48 hours with confirmation details and next steps. Check your email for a receipt.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg width="24" height="20" viewBox="0 0 72 60" fill="none" aria-hidden="true">
+            <polyline points="2,10 22,30 2,50" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.22"/>
+            <polyline points="18,6 42,30 18,54" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+            <polyline points="36,10 62,30 36,50" stroke="#4d9fff" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <div class="footer-wordmark">Elite Showcase <span>ID</span></div>
+        </div>
+        <p class="footer-tagline">National soccer ID camps connecting top youth talent with college coaches who are actively building rosters.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Follow Elite Showcase ID on Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+          </a>
+          <a href="#" aria-label="Follow Elite Showcase ID on X">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"/></svg>
+          </a>
+          <a href="#" aria-label="Follow Elite Showcase ID on LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M7 10v7M7 7v.01M12 10v7M12 13a2 2 0 0 1 4 0v4"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <p class="footer-col-title">ID Camps</p>
+        <ul class="footer-col-links">
+          <li><a href="#how">How It Works</a></li>
+          <li><a href="#events">Event Schedule</a></li>
+          <li><a href="#events">Divisions &amp; Age Groups</a></li>
+          <li><a href="#faq">Player FAQ</a></li>
+          <li><a href="#coaches">Coach Information</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer-col-title">Organization</p>
+        <ul class="footer-col-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#about">Staff</a></li>
+          <li><a href="#coaches">Our Partners</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#register">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer-col-title">Resources</p>
+        <ul class="footer-col-links">
+          <li><a href="#">Evaluation Rubric</a></li>
+          <li><a href="#coaches">College Coach List</a></li>
+          <li><a href="#">Player Profiles</a></li>
+          <li><a href="#">Media &amp; Photos</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-legal">© 2025 Elite Showcase ID. All rights reserved.
+        &nbsp;·&nbsp; <a href="#">Privacy Policy</a>
+        &nbsp;·&nbsp; <a href="#">Terms of Service</a>
+      </p>
+      <div class="footer-badge">Seen · Evaluated · Chosen</div>
+    </div>
+  </div>
+</footer>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
