@@ -107,15 +107,6 @@ const COACHES = [
     color: '#003fa3'
   },
   {
-    initials: 'NN',
-    name: 'Nate Norman',
-    title: 'Head Coach',
-    program: "Women's Soccer",
-    school: 'Notre Dame',
-    division: 'NCAA DI',
-    color: '#0057cc'
-  },
-  {
     initials: 'RJ',
     name: 'Rafael Jimenez',
     title: 'Head Coach',
@@ -132,15 +123,6 @@ const COACHES = [
     school: 'UCLA',
     division: 'NCAA DI',
     color: '#003fa3'
-  },
-  {
-    initials: 'GB',
-    name: 'Gof Boyoko',
-    title: 'Head Coach',
-    program: "Women's Soccer",
-    school: 'UCLA',
-    division: 'NCAA DI',
-    color: '#0057cc'
   },
   {
     initials: 'MB',
