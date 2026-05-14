@@ -537,13 +537,12 @@ function initCounters() {
 }
 
 function animateCounter(el) {
-  /* Preserve any HTML suffix tags (<span>, <em>) by extracting
-     the raw digit string and re-inserting the rest as-is. */
-  var rawText = el.textContent.replace(/[^0-9]/g, '');
-  var target = parseInt(rawText, 10);
+  var target = parseInt(el.getAttribute('data-target'), 10);
   if (!target) return;
 
-  var suffix = el.innerHTML.replace(rawText, '').replace(/,/g, '');
+  // Capture suffix tag (<span>+</span> or <em>+</em>) once before any writes
+  var suffixEl = el.querySelector('span, em');
+  var suffixHTML = suffixEl ? suffixEl.outerHTML : '';
 
   var start = null;
   var duration = 1200;
@@ -553,7 +552,7 @@ function animateCounter(el) {
     var progress = Math.min((ts - start) / duration, 1);
     var ease = 1 - Math.pow(1 - progress, 3); // cubic ease-out
     var current = Math.round(ease * target);
-    el.innerHTML = current.toLocaleString('en-US') + suffix;
+    el.innerHTML = current.toLocaleString('en-US') + suffixHTML;
     if (progress < 1) requestAnimationFrame(tick);
   }
 
